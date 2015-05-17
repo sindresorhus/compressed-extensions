@@ -1,0 +1,41 @@
+{
+  "name": "compressed-extensions",
+  "version": "0.0.0",
+  "description": "List of compressed file extensions",
+  "license": "MIT",
+  "repository": "sindresorhus/compressed-extensions",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "main": "compressed-extensions.json",
+  "files": [
+    "compressed-extensions.json"
+  ],
+  "keywords": [
+    "ext",
+    "extensions",
+    "extension",
+    "file",
+    "json",
+    "list",
+    "array",
+    "compressed",
+    "compress",
+    "archive",
+    "zip",
+    "tar",
+    "rar",
+    "7z"
+  ],
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
