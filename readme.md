@@ -2,23 +2,23 @@
 
 > List of [compressed file extensions](http://en.wikipedia.org/wiki/List_of_archive_formats#Compression_only)
 
-*The list is just a [JSON file](compressed-extensions.json) and can be used wherever.*
+*The list is just a [JSON file](compressed-extensions.json) and can be used anywhere.*
 
 
 ## Install
 
 ```
-$ npm install --save compressed-extensions
+$ npm install compressed-extensions
 ```
 
 
 ## Usage
 
 ```js
-var compressedExtensions = require('compressed-extensions');
+const compressedExtensions = require('compressed-extensions');
 
 console.log(compressedExtensions);
-//=> ['7z', 'apk', ...]
+//=> ['7z', 'apk', …]
 ```
 
 
@@ -29,4 +29,4 @@ console.log(compressedExtensions);
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

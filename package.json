@@ -1,41 +1,45 @@
 {
-  "name": "compressed-extensions",
-  "version": "1.0.1",
-  "description": "List of compressed file extensions",
-  "license": "MIT",
-  "repository": "sindresorhus/compressed-extensions",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "ava"
-  },
-  "main": "compressed-extensions.json",
-  "files": [
-    "compressed-extensions.json"
-  ],
-  "keywords": [
-    "ext",
-    "extensions",
-    "extension",
-    "file",
-    "json",
-    "list",
-    "array",
-    "compressed",
-    "compress",
-    "archive",
-    "zip",
-    "tar",
-    "rar",
-    "7z"
-  ],
-  "devDependencies": {
-    "ava": "*"
-  }
+	"name": "compressed-extensions",
+	"version": "1.0.1",
+	"description": "List of compressed file extensions",
+	"license": "MIT",
+	"repository": "sindresorhus/compressed-extensions",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts",
+		"compressed-extensions.json",
+		"compressed-extensions.json.d.ts"
+	],
+	"keywords": [
+		"ext",
+		"extensions",
+		"extension",
+		"file",
+		"json",
+		"list",
+		"array",
+		"compressed",
+		"compress",
+		"archive",
+		"zip",
+		"tar",
+		"rar",
+		"7z"
+	],
+	"devDependencies": {
+		"ava": "^1.4.1",
+		"tsd": "^0.7.2",
+		"xo": "^0.24.0"
+	}
 }
