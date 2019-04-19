@@ -1,7 +1,7 @@
 import test from 'ava';
-import m from './';
+import compressedExtensions from '.';
 
-test(t => {
-	t.true(Array.isArray(m));
-	t.true(m.length > 0);
+test('main', t => {
+	t.true(Array.isArray(compressedExtensions));
+	t.true(compressedExtensions.length > 0);
 });
