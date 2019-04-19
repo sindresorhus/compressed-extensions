@@ -24,7 +24,7 @@ console.log(compressedExtensions);
 
 ## Related
 
-- [is-compressed](https://github.com/sindresorhus/is-compressed) - Check if a filepath is a compressed file
+- [is-compressed](https://github.com/sindresorhus/is-compressed) - Check if a file path is a compressed file
 
 
 ## License
