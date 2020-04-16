@@ -1,5 +1,5 @@
 /**
-List of [compressed file extensions](http://en.wikipedia.org/wiki/List_of_archive_formats#Compression_only).
+List of [compressed file extensions](https://en.wikipedia.org/wiki/List_of_archive_formats#Compression_only).
 
 @example
 ```
