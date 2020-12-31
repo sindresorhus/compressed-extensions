@@ -1,4 +1,4 @@
-# compressed-extensions [![Build Status](https://travis-ci.com/sindresorhus/compressed-extensions.svg?branch=master)](https://travis-ci.com/sindresorhus/compressed-extensions)
+# compressed-extensions
 
 > List of [compressed file extensions](https://en.wikipedia.org/wiki/List_of_archive_formats#Compression_only)
 
