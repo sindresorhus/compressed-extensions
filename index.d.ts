@@ -3,7 +3,7 @@ List of [compressed file extensions](https://en.wikipedia.org/wiki/List_of_archi
 
 @example
 ```
-import compressedExtensions = require('compressed-extensions');
+import compressedExtensions from 'compressed-extensions';
 
 console.log(compressedExtensions);
 //=> ['7z', 'apk', …]
@@ -11,4 +11,4 @@ console.log(compressedExtensions);
 */
 declare const compressedExtensions: readonly string[];
 
-export = compressedExtensions;
+export default compressedExtensions;

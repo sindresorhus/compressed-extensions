@@ -1,3 +1,3 @@
-'use strict';
+import compressedExtensions from './compressed-extensions.json' with {type: 'json'};
 
-module.exports = require('./compressed-extensions.json');
+export default compressedExtensions;

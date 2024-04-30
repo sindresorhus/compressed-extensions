@@ -1,5 +1,5 @@
 import test from 'ava';
-import compressedExtensions from '.';
+import compressedExtensions from './index.js';
 
 test('main', t => {
 	t.true(Array.isArray(compressedExtensions));

@@ -6,14 +6,14 @@
 
 ## Install
 
-```
-$ npm install compressed-extensions
+```sh
+npm install compressed-extensions
 ```
 
 ## Usage
 
 ```js
-const compressedExtensions = require('compressed-extensions');
+import compressedExtensions from 'compressed-extensions';
 
 console.log(compressedExtensions);
 //=> ['7z', 'apk', …]

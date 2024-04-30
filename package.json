@@ -4,22 +4,29 @@
 	"description": "List of compressed file extensions",
 	"license": "MIT",
 	"repository": "sindresorhus/compressed-extensions",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"sideEffects": false,
 	"engines": {
-		"node": ">=8"
+		"node": ">=18.20"
 	},
 	"scripts": {
-		"test": "xo && ava && tsd"
+		"//test": "xo && ava && tsc --noEmit index.d.ts",
+		"test": "ava && tsc --noEmit index.d.ts"
 	},
 	"files": [
 		"index.js",
 		"index.d.ts",
-		"compressed-extensions.json",
-		"compressed-extensions.json.d.ts"
+		"compressed-extensions.json"
 	],
 	"keywords": [
 		"extensions",
@@ -37,8 +44,9 @@
 		"7z"
 	],
 	"devDependencies": {
-		"ava": "^1.4.1",
-		"tsd": "^0.7.2",
-		"xo": "^0.24.0"
+		"ava": "^6.1.2",
+		"tsd": "^0.31.0",
+		"typescript": "^5.4.5",
+		"xo": "^0.58.0"
 	}
 }
